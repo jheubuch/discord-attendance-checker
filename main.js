@@ -20,8 +20,8 @@ client.on('message', (msg) => {
         return;
     }
 
-    // find the specified voice channel
-    let channel = client.channels.cache.find(channel => channel.type === 'voice' && channel.name === attendanceChannel);
+    // find the specified voice channel on the same server
+    let channel = client.channels.cache.find(channel => channel.type === 'voice' && msg.guild.id === channel.guild.id && channel.name === attendanceChannel);
     if (channel === null || channel === undefined) {
         msg.channel.send('I could not find the channel you were looking for... 😕 Please try again!');
         return;
