@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/jheubuch/discord-attendance-checker/issues"
   },
-  "homepage": "https://github.com/jheubuch/discord-attendance-checker#readme"
+  "homepage": "https://github.com/jheubuch/discord-attendance-checker#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0"
+  }
 }
