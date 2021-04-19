@@ -1,0 +1,24 @@
+{
+  "name": "discord-attendance-checker",
+  "version": "1.0.0",
+  "description": "Attendance checker bot for discord",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jheubuch/discord-attendance-checker.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "attendance"
+  ],
+  "author": "Jonas Heubuch",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jheubuch/discord-attendance-checker/issues"
+  },
+  "homepage": "https://github.com/jheubuch/discord-attendance-checker#readme"
+}
