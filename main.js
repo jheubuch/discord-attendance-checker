@@ -40,5 +40,9 @@ client.on('message', (msg) => {
     msg.channel.send(attendanceMessage);
 });
 
+client.on('ready', () => {
+    client.user.setActivity(`${process.env.PREFIX} <VOICE-CHANNEL>`);
+});
+
 // log in to Discord API
 client.login(process.env.BOT_TOKEN);
